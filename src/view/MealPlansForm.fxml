@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mealPlansContext" prefHeight="700.0" prefWidth="1415.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPlansFormController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1415.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/MealPlans-bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="666.0" layoutY="33.0" text="MEAL PLANS" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="100.0" />
+         </font>
+      </Label>
+      <AnchorPane focusTraversable="true" layoutX="22.0" layoutY="218.0" opacity="0.33" prefHeight="314.0" prefWidth="430.0" style="-fx-background-color: #000000;" />
+      <AnchorPane focusTraversable="true" layoutX="470.0" layoutY="218.0" opacity="0.33" prefHeight="314.0" prefWidth="461.0" style="-fx-background-color: #000000;" />
+      <AnchorPane focusTraversable="true" layoutX="948.0" layoutY="218.0" opacity="0.33" prefHeight="314.0" prefWidth="442.0" style="-fx-background-color: #000000;" />
+      <Label layoutX="43.0" layoutY="334.0" onMouseClicked="#openLocalMealPlansOnAction" text="---Local Meals---" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="334.0" onMouseClicked="#openChineseMealPlansOnAction" text="---Chinese Meals---" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="963.0" layoutY="334.0" onMouseClicked="#openFrenchMealPlansOnAction" text="---French Meals---" textFill="WHITE">
+         <font>
+            <Font name="Microsoft Tai Le" size="50.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="1250.0" layoutY="647.0" onAction="#backToMainOnAction" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: #ffa163; -fx-background-radius: 10;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

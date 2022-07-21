@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="startContext" prefHeight="700.0" prefWidth="1415.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StartFormController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1415.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/Start-bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="2.0" layoutY="99.0" text="HOTEL BLUE OCEAN" textFill="WHITE">
+         <font>
+            <Font name="Ebrima Bold" size="148.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="290.0" text="Best hotel dream for your holidays" textFill="#fffdfd">
+         <font>
+            <Font name="Malgun Gothic Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="669.0" text="Enginnerd by :www.ijse.lk">
+         <font>
+            <Font name="Malgun Gothic" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1267.0" layoutY="671.0" text="System version :1.00">
+         <font>
+            <Font name="Malgun Gothic" size="15.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="503.0" layoutY="350.0" onAction="#openLoginFormOnAction" prefHeight="62.0" prefWidth="331.0" ripplerFill="#08024d" style="-fx-background-color: #d4f6fd; -fx-background-radius: 50;" text="Get Start">
+         <font>
+            <Font name="Ebrima Bold" size="30.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

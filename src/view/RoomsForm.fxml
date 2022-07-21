@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="roomsContext" prefHeight="700.0" prefWidth="1415.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RoomsFormController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1415.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../asserts/Rooms-bg.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="22.0" text="ROOMS">
+         <font>
+            <Font name="Bell MT Bold" size="100.0" />
+         </font>
+      </Label>
+      <AnchorPane focusTraversable="true" layoutX="57.0" layoutY="169.0" opacity="0.33" prefHeight="436.0" prefWidth="310.0" style="-fx-background-color: #000000;" />
+      <AnchorPane focusTraversable="true" layoutX="385.0" layoutY="169.0" opacity="0.33" prefHeight="436.0" prefWidth="310.0" style="-fx-background-color: #000000;" />
+      <AnchorPane focusTraversable="true" layoutX="714.0" layoutY="169.0" opacity="0.33" prefHeight="436.0" prefWidth="310.0" style="-fx-background-color: #000000;" />
+      <AnchorPane focusTraversable="true" layoutX="1048.0" layoutY="169.0" opacity="0.33" prefHeight="436.0" prefWidth="310.0" style="-fx-background-color: #000000;" />
+      <Label layoutX="127.0" layoutY="191.0" onMouseClicked="#openSingleRoomOnAction" text="Single Rooms" textFill="#ffb142">
+         <font>
+            <Font name="Microsoft Tai Le" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="446.0" layoutY="191.0" onMouseClicked="#openDoubleRoomOnAction" text="Double Rooms" textFill="#ffb142">
+         <font>
+            <Font name="Microsoft Tai Le" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="781.0" layoutY="191.0" onMouseClicked="#openTripleRoomOnAction" text="Triple Rooms" textFill="#ffb142">
+         <font>
+            <Font name="Microsoft Tai Le" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="1114.0" layoutY="191.0" onMouseClicked="#openQuadRoomOnAction" text="Quad Rooms" textFill="#ffb142">
+         <font>
+            <Font name="Microsoft Tai Le" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="119.0" layoutY="261.0" text="From Rs : 18,000" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="314.0" text="----FEATURES----" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="373.0" text="Daily Newspapers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="63.0" layoutY="401.0" text="Tea/Coffee making facitily" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="431.0" text="Bathrobe &amp; Slippers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="461.0" text="Bult in wall safe" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="161.0" layoutY="489.0" text="Mini bar" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="123.0" layoutY="515.0" text="Interent access" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="542.0" text="Area - 290 square feet" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="446.0" layoutY="261.0" text="From Rs : 26,000" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="451.0" layoutY="314.0" text="----FEATURES----" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="450.0" layoutY="373.0" text="Daily Newspapers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="401.0" text="Tea/Coffee making facitily" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="431.0" text="Bathrobe &amp; Slippers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="455.0" layoutY="461.0" text="Bult in wall safe" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="491.0" layoutY="489.0" text="Mini bar" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="453.0" layoutY="515.0" text="Interent access" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="414.0" layoutY="542.0" text="Area - 380 square feet" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="775.0" layoutY="261.0" text="From Rs : 34,000" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="778.0" layoutY="314.0" text="----FEATURES----" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="777.0" layoutY="373.0" text="Daily Newspapers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="720.0" layoutY="401.0" text="Tea/Coffee making facitily" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="755.0" layoutY="431.0" text="Bathrobe &amp; Slippers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="782.0" layoutY="461.0" text="Bult in wall safe" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="818.0" layoutY="489.0" text="Mini bar" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="780.0" layoutY="515.0" text="Interent access" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="741.0" layoutY="542.0" text="Area - 530 square feet" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1109.0" layoutY="261.0" text="From Rs : 46,000" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1112.0" layoutY="314.0" text="----FEATURES----" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1111.0" layoutY="373.0" text="Daily Newspapers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1054.0" layoutY="401.0" text="Tea/Coffee making facitily" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1089.0" layoutY="431.0" text="Bathrobe &amp; Slippers" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1116.0" layoutY="461.0" text="Bult in wall safe" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1152.0" layoutY="489.0" text="Mini bar" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1114.0" layoutY="515.0" text="Interent access" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="1075.0" layoutY="542.0" text="Area - 920 square feet" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="25.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="1250.0" layoutY="644.0" onAction="#backToMainOnAction" prefHeight="42.0" prefWidth="145.0" style="-fx-background-color: #e4a073; -fx-background-radius: 10;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Malgun Gothic" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
